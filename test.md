@@ -1,8 +1,9 @@
 '''uml
 @startuml
 start
-:Alice -> Bob: Request;
-:Bob --> Alice: Response;
-end
+:Hello world;
+:This is on defined on
+several **lines**;
+stop
 @enduml
 '''
