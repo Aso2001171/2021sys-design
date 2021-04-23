@@ -1,11 +1,7 @@
 ```uml
 @startuml
-:health＝10;
-if (health<=20) then (true)
-  :Stay　Hotel;
-else (false)
-  :;
-  
-endif
+(*) --> "First Activity"
+"First Activity" --> (*)
+
 @enduml
 ```
