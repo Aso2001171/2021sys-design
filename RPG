@@ -1,10 +1,10 @@
 ```uml
 @startuml
-:体力＝10;
-if (体力<=20) then (true)
-  :宿屋に泊まる;
+:health＝10;
+if (health<=20) then (true)
+  :Stay　Hotel;
 else (false)
-  :頑張ってレベルを上げる;
+  :;
   
 endif
 @enduml
