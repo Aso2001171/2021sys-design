@@ -1,9 +1,15 @@
 '''uml
 @startuml
+
 start
-:Hello world;
-:This is on defined on
-several **lines**;
+
+if (Graphviz installed?) then (yes)
+  :process all\ndiagrams;
+else (no)
+  :process only
+  __sequence__ and __activity__ diagrams;
+endif
+
 stop
 @enduml
 '''
